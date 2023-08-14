@@ -7,7 +7,6 @@ def on_item_update(new_item):
 def wait_for_input():
 	input("{0:-^80}\n".format("HIT CR TO UNSUBSCRIBE AND DISCONNECT FROM LIGHTSTREAMER"))
 
-
 sahamyab_client = {
 	"lightstreamer_username": None,
 	"lightstreamer_password": None,
