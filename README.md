@@ -20,7 +20,7 @@ adapter_set: The name of the Adapter Set mounted on Lightstreamer Server to be u
 Note: The "adapter_set" value could be find in .js files.
 ```
 
-## Lightstreamer LightstreamerSubscription Object
+## Lightstreamer Subscription Object
 ```bash
 LightstreamerSubscription(mode, items, fields, adapter)
 
