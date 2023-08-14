@@ -10,11 +10,11 @@ pip install lightstreamer-client
 
 ## Lightstreamer Client Object
 ```bash
-LightstreamerClient(user, pass, "server_address", "adapter_set")
+LightstreamerClient(lightstreamer_username, lightstreamer_password, "lightstreamer_url", "adapter_set")
 
-user: Lightstreamer username (None by default)
-pass: Lightstreamer password (None by default)
-server_address: The address of the Lightstreamer Server to which this LightstreamerClient will connect to.
+lightstreamer_username: Lightstreamer username (None by default)
+lightstreamer_password: Lightstreamer password (None by default)
+lightstreamer_url: The address of the Lightstreamer Server to which this LightstreamerClient will connect to.
 adapter_set: The name of the Adapter Set mounted on Lightstreamer Server to be used to handle all requests in the Session associated with this LightstreamerClient.
 
 Note: The "adapter_set" value could be find in .js files.
