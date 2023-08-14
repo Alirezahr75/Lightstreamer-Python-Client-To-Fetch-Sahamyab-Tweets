@@ -1,5 +1,5 @@
-# Lightstreamer-Python-Client
-This project contains a Python script that fetch data from lightstreamer socket.
+# Lightstreamer-Python-Client-for-Sahamyab-Tweets
+This project contains a Python script that fetch tweets realtime from sahamyab lightstreamer socket.
 
 ## Installation
 Install lightstreamer_client using pip:
